@@ -16,7 +16,7 @@ def get_test():
     time.sleep(10)
 
 def new_func(options):
-    driver = webdriver.Chrome(executable_path=r"/home/gleb/WebDriver/PATH/chromedriver", chrome_options=options)
+    driver = webdriver.Chrome(executable_path=r"/home/gleb/selenium_chrome/drivers/chromedriver", chrome_options=options)
     return driver
 
     #textarea = driver.find_element(By.CSS_SELECTOR, "#city")
