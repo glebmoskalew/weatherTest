@@ -9,7 +9,6 @@ def get_test():
     options = Options()
     options.add_argument("start-maximized")
     driver = webdriver.Chrome(executable_path=r"/home/gleb/selenium_chrome/drivers/chromedriver", chrome_options=options)
-    return driver
     driver.get("http://127.0.0.1:8000/")
     time.sleep(10)
 
