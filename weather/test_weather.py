@@ -15,10 +15,10 @@ def get_test():
 
     textarea = driver.find_element(By.CSS_SELECTOR, "#city")
     textarea.send_keys("Moscow")
-    time.sleep(8)
+    time.sleep(10)
     submit_button = driver.find_element(By.CSS_SELECTOR, ".mt-2")
     submit_button.click()
-    time.sleep(8)
+    time.sleep(10)
     print(submit_button[0].text)
 
 
